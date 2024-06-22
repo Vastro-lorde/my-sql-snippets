@@ -1,0 +1,32 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "PostgreSQL",
+            "name": "seun",
+            "group": "seun",
+            "connectString": "postgres://seun_user:6xQWBnTaK6VfMb6pre8fSo7twVAOo2JY@dpg-cpleom8cmk4c739n6qog-a.oregon-postgres.render.com/seun"
+        },
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "SEUN",
+            "driver": "MSSQL",
+            "name": "local",
+            "database": "seun",
+            "username": "vastrolorde",
+            "connectString": "Server=SEUN\\SQLEXPRESS;Database=seun;User Id=vastrolorde;Password=love4672;",
+            "password": "love4672"
+        }
+    ]
+}

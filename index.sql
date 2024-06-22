@@ -1,0 +1,1 @@
+SELECT "name", UPPER("name") AS reversed_name, "phone" FROM "Users";
